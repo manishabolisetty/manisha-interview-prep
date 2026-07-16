@@ -3,58 +3,58 @@
 > **How to use this doc:** These are your 4 honest anchor stories + self-intro, covering ~9 of the top 10 behavioral questions. Read them out loud, time yourself, and fill in every `⚠️ CONFIRM` marker with a real detail from your own memory. The markers are the spots most likely to get probed in follow-ups.
 >
 > **The three rules baked into every story here:**
+>
 > 1. **Hedge numbers, never fake precision.** "A couple of minutes" survives follow-up; "80% reduction" dies to "how'd you measure that?"
 > 2. **Claim "I owned X," not "it became the org standard."** Your honest scope is strong enough on its own.
 > 3. **End on genuine learning.** At the level you're targeting, the Reflection is what scores — not heroics.
 
 ---
 
+
+
 ## Coverage Map — 4 stories cover the top 10 questions
 
-| # | Question | Covered by |
-|---|----------|-----------|
-| 1 | Tell me about yourself | Self-Intro |
-| 2 | Most challenging technical problem | **OTEL** |
-| 3 | A mistake / something you'd do differently | **OTEL** (manual-first wrong path) |
-| 4 | Disagreement / tough feedback | **Config Push-Back** / OTEL feedback |
-| 5 | Learn something quickly | **Migration** |
-| 6 | Ambiguous / poorly-scoped problem | **Migration** |
-| 7 | Improved something / took initiative | **401 Incident** (systemic fix) |
-| 8 | Handled pressure / an incident | **401 Incident** |
-| 9 | Why this company / why this role | ✅ **Why This Company** (Procore + template) |
-| 10 | Cross-team collaboration | **401 Incident** / Config |
-| 11 | Tell me about an AI/automation project · improving developer productivity | **README Automation** |
-| 12 | Building/owning something novel end-to-end | **README Automation** |
+
+| #   | Question                                                                  | Covered by                                  |
+| --- | ------------------------------------------------------------------------- | ------------------------------------------- |
+| 1   | Tell me about yourself                                                    | Self-Intro                                  |
+| 2   | Most challenging technical problem                                        | **OTEL**                                    |
+| 3   | A mistake / something you'd do differently                                | **OTEL** (manual-first wrong path)          |
+| 4   | Disagreement / tough feedback                                             | **Config Push-Back** / OTEL feedback        |
+| 5   | Learn something quickly                                                   | **Migration**                               |
+| 6   | Ambiguous / poorly-scoped problem                                         | **Migration**                               |
+| 7   | Improved something / took initiative                                      | **401 Incident** (systemic fix)             |
+| 8   | Handled pressure / an incident                                            | **401 Incident**                            |
+| 9   | Why this company / why this role                                          | ✅ **Why This Company** (Procore + template) |
+| 10  | Cross-team collaboration                                                  | **401 Incident** / Config                   |
+| 11  | Tell me about an AI/automation project · improving developer productivity | **README Automation**                       |
+| 12  | Building/owning something novel end-to-end                                | **README Automation**                       |
+
 
 > ⚠️ **Sequencing note:** OTEL and Config both live at Ford's Cloud Run migration. If asked for two examples in one session, don't tell them back-to-back — lead OTEL with the *technical* angle and Config with the *people/judgment* angle. Pull the 401 story from the incident angle to add range.
 
 ---
 
+
+
 ## SELF-INTRODUCTION 🎤
-*~60–75 seconds spoken. A narrative with a spine — not a resume readout.*
 
-> "Hi, I'm Manisha — a backend-focused software engineer with about 7 years of experience building and supporting scalable backend services, mostly in Java and Spring Boot.
+> "Hi, I’m Manisha. I’m a backend-focused full-stack software engineer with over seven years of experience building scalable and reliable systems across the healthcare and automotive industries.
 >
-> Most of my depth is in backend and distributed systems — REST APIs, microservices, messaging, databases, and the operational side of keeping those systems healthy in production. I'm comfortable across the stack and have shipped frontend in React, Angular, and Vue, but backend is where I do my strongest work.
+> My primary expertise is in Java, Spring Boot, REST APIs, microservices, distributed systems, databases, and CI/CD. I also have frontend experience with React, Angular, which helps me collaborate effectively across the full application stack.
 >
-> Right now I'm at Oracle, working on backend services for Oracle Health's clinical systems along with internal engineering tooling — I modernized a legacy application into a clean multi-module build, and built an AI-assisted automation workflow that used MCP to cut repetitive manual work out of an engineering process. It's still early days there, but it's let me go deep on both healthcare backend work and the AI-tooling side.
+> Most recently, I'm with Oracle Health where I worked on internal engineering tools, application modernization, and AI-enabled workflow automation. One of my key projects involved building an AI-assisted documentation workflow using Cline, MCP servers, scripts, structured prompts, and internal APIs. It automated several repetitive validation and documentation steps, improving developer productivity and consistency. I also modernized a legacy SVN application by migrating it to GitHub and restructuring it as a standardized multi-module Maven project.
 >
-> Where I built most of my depth, though, was about four years at Ford, on the Connected Vehicle platform — building Spring Boot microservices that processed real-time vehicle events through Pub/Sub and Kafka on the cloud. The work I'm proudest of there was owning observability for our services: I built end-to-end distributed tracing across our services, which took our on-call debugging from hunting through logs to pulling up a single trace. It's a good example of how I like to work — find the recurring pain, and fix it at the system level rather than one incident at a time.
+> Before Oracle, I spent about four years at Ford working on Ford Pro Intelligence, a connected-vehicle and fleet-management platform. I developed and supported Java and Spring Boot microservices, APIs, and event-driven data pipelines using technologies such as Kafka, Azure Event Hubs, and GCP Pub/Sub to process large volumes of vehicle telemetry data. I led an observability initiative where I implemented end-to-end distributed tracing across our microservices, improving system visibility and significantly reducing the time required to troubleshoot production issues.
 >
-> Across both, what I enjoy most is owning a problem end-to-end — from design through production support — and building things that are reliable and easy for the team to operate. That's the kind of work I'm looking to keep doing."
-
-**Delivery notes:**
-- Opens with **one clear identity** ("backend-focused") — interviewers label you in 10 seconds; give them a clean one.
-- Plants **one hook** (OTEL) you *want* them to pull.
-- Ends on **motivation**, which hands the conversation back and sets up "why are you looking?"
-
-> ⚠️ **CONFIRM before using:**
-> - I wrote **"7 years"** — resume says "around 8." Pick one and use it *consistently everywhere*.
-> - Keep the AI/MCP line only if you can defend it under questioning. If shaky, leave it as "internal tooling automation" and don't wave the AI flag.
+> What I enjoy most is owning problems end-to-end, working closely with cross-functional teams, and building reliable, maintainable systems that are easy to support in production."
 
 ---
 
+
+
 ## STORY 1 — OTEL Observability 🎯 *(your anchor)*
+
 **Primary:** Hardest technical problem
 **Also reuses for:** Mistake/would-redo · Tough feedback · Learning quickly
 
@@ -73,6 +73,7 @@ The hardest part was async trace continuity: traces died at the Pub/Sub boundary
 **🪞 Reflection —** The lesson I keep: before I start building, ask what this looks like at the 10th case, not the 1st. My manager's question saved me from shipping something that didn't scale, and I now ask it myself by default.
 
 > ⚠️ **CONFIRM / HOMEWORK:**
+>
 > - **Review W3C trace-context propagation through Pub/Sub** before using this. The follow-up "how exactly did the trace ID survive Pub/Sub?" is near-certain. If you can't go deep, soften to "I got context propagated through message attributes" and don't over-claim depth.
 > - Keep "Spring Boot 3.2 / Secrets Manager v2 / LGTM" only if you actually recall these — they're great *if* real, but they're precise and probeable.
 
@@ -80,7 +81,10 @@ The hardest part was async trace continuity: traces died at the Pub/Sub boundary
 
 ---
 
+
+
 ## STORY 2 — SVN→Maven Migration 🔧
+
 **Primary:** Ambiguous / poorly-scoped problem
 **Also reuses for:** Learning quickly · Ownership · Complex technical challenge
 
@@ -100,7 +104,10 @@ The hardest part was async trace continuity: traces died at the Pub/Sub boundary
 
 ---
 
+
+
 ## STORY 3 — Config Cleanup Push-Back ⚖️
+
 **Primary:** Conflict / disagreement with a coworker
 **Also reuses for:** Influence without authority · Tech-debt vs speed judgment · De-risking a decision · Quality vs delivery pressure
 
@@ -122,7 +129,10 @@ To de-risk it — because their delivery concern was legitimate — I proposed w
 
 ---
 
+
+
 ## STORY 4 — Production Incident: Auth-Failure Spike 🚨
+
 **Primary:** Handling pressure / a production incident
 **Also reuses for:** Debugging a prod issue · Customer-facing problem · Initiative · Cross-team collaboration
 
@@ -141,6 +151,7 @@ For the immediate fix, I coordinated with the other team to confirm the correct 
 **🪞 Reflection —** The real fix for an incident usually isn't the hotfix — it's closing the gap that let it happen. Patching the customer list solved that morning. The coordination step and the alert solved the actual problem: two teams could drift out of sync silently.
 
 > ⚠️ **CONFIRM (4 spots — these are your own memory, fill them truthfully):**
+>
 > 1. **Root cause** — I wrote "another team enabled customers our backend didn't recognize." If the real cause was different (token/cert/gateway config), swap it for what you can explain.
 > 2. **Immediate fix** — I wrote "updated the authorized customer list." Confirm the real remediation.
 > 3. **Systemic fix** — you told me the real fix was *improved monitoring/alerting*, so the alert is solid. Confirm the cross-team coordination piece is real, or drop it.
@@ -150,7 +161,10 @@ For the immediate fix, I coordinated with the other team to confirm the correct 
 
 ---
 
+
+
 ## STORY 5 — README Automation with MCP 🤖 *(high-reward, high-risk — see warning)*
+
 **Primary:** AI/automation initiative · Differentiator story
 **Also reuses for:** Improving developer productivity · Owning something novel end-to-end
 
@@ -169,6 +183,7 @@ The trickiest part was making the AI reliably turn an unstructured document into
 **🪞 Reflection —** What I took away is that giving an AI agent real access to backend systems is powerful, but the guardrails matter as much as the capability — the validation layer before any API call was the part that made it safe to actually use.
 
 > ⚠️ **CONFIRM / HOMEWORK (mandatory before using):**
+>
 > 1. **The critical distinction:** you *used* MCP servers, you did NOT build one. Phrase it as "I used MCP to connect the AI tooling to our internal APIs." Be ready to explain, at a *user's* level, what MCP does (lets an AI agent call real tools/APIs through a standard interface) — but don't claim server-implementation depth you don't have.
 > 2. Be ready for **"how did you validate LLM output before the API call?"** — schema validation is the honest answer; know how it worked. This is now your strongest defensible technical point, so lean into it.
 > 3. **Scope honesty:** you started Oracle ~Oct 2025. Frame this as a *proof-of-concept you built*, NOT a fully-adopted production framework.
@@ -178,22 +193,31 @@ The trickiest part was making the AI reliably turn an unstructured document into
 
 ---
 
+
+
 ## Migration vs README — which to lead with 🥊
 
-| | SVN→Maven Migration | README Automation |
-|---|---|---|
-| Defensibility | ✅ High (concrete: POMs, deps) | ✅ Good now it's accurate (design + validation are yours) |
-| Timeline credibility | ✅ Fine | ⚠️ Tight (started Oct 2025) — frame as proof-of-concept |
-| "Is it real engineering?" | ✅ Unambiguous | ✅ Yes (workflow design + schema validation) |
-| Wow factor | Solid | ✅ High (MCP is rare) |
+
+|                           | SVN→Maven Migration           | README Automation                                        |
+| ------------------------- | ----------------------------- | -------------------------------------------------------- |
+| Defensibility             | ✅ High (concrete: POMs, deps) | ✅ Good now it's accurate (design + validation are yours) |
+| Timeline credibility      | ✅ Fine                        | ⚠️ Tight (started Oct 2025) — frame as proof-of-concept  |
+| "Is it real engineering?" | ✅ Unambiguous                 | ✅ Yes (workflow design + schema validation)              |
+| Wow factor                | Solid                         | ✅ High (MCP is rare)                                     |
+
 
 **Verdict:** Migration = your reliable **floor** (never collapses). README = high-ceiling and now safe to tell, *as long as you say "used MCP," not "built an MCP server."* Both are usable; lead with Migration for "ambiguous/learning-fast," deploy README when you want to stand out.
 
 ---
 
+
+
 ## "WHY THIS COMPANY / WHY THIS ROLE" 🎯
 
+
+
 ### Reusable Template (works for any company)
+
 Fill the `[brackets]` with 10 minutes of research on the specific company:
 
 > "Three things draw me to `[company]`.
@@ -207,11 +231,15 @@ Fill the `[brackets]` with 10 minutes of research on the specific company:
 > So it's not a generic backend role to me — it lines up with both what I've done and where I want to go."
 
 **Rules for using it:**
+
 - **Lead with the company, not yourself.** Show you researched *them* before you pivot to fit.
 - **One specific, non-obvious detail** proves you did homework. Avoid "I love your mission" (everyone says it).
 - **Keep it ~45–60 seconds.** This isn't a story; it's a signal of genuine interest + self-awareness.
 
+
+
 ### Worked Example — Procore Technologies
+
 *Spine: reason #3 (building tools that multiply engineers), with #1/#2 as support.*
 
 > "A few things draw me specifically to Procore.
@@ -225,6 +253,7 @@ Fill the `[brackets]` with 10 minutes of research on the specific company:
 > I'll be honest that my core stack has been Java and Spring rather than Ruby on Rails — but the backend and distributed-systems thinking transfers directly, and I'd be genuinely excited to pick up the Rails side."
 
 **Why this version works:**
+
 - Names a **real, specific** Procore trait (platform/common-core empowering other teams) — proves research.
 - **Ties it to your actual OTEL story** — motivation backed by evidence, not just enthusiasm.
 - **Proactively addresses the Ruby/Rails gap** honestly — Procore's stack is Ruby/Rails/Postgres/AWS, not Java. Naming it first shows self-awareness and defuses their concern before they raise it.
@@ -233,7 +262,11 @@ Fill the `[brackets]` with 10 minutes of research on the specific company:
 
 ---
 
+
+
 ## GENERAL DELIVERY REMINDERS
+
 - **When you don't remember a detail:** say "I'd have to check the exact figure, but roughly..." — hedging is *credible*, not weak. Never invent precision on the spot.
 - **Every story ends on the Reflection** — don't let it trail off after the Result.
 - **If pressed beyond what you recall**, pivot to what you learned or what you'd do now. That's always defensible.
+
