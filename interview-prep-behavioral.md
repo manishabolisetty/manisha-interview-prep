@@ -4,15 +4,15 @@
 
 ## SELF-INTRODUCTION 🎤
 
-> "Hi, I’m Manisha. I’m a backend-focused full-stack software engineer with over seven years of experience building scalable and reliable systems across the healthcare and automotive industries.
->
-> My primary expertise is in Java, Spring Boot, REST APIs, microservices, distributed systems, databases, and CI/CD. I also have frontend experience with React, Angular, which helps me collaborate effectively across the full application stack.
->
-> Most recently, I'm with Oracle Health where I worked on internal engineering tools, application modernization, and AI-enabled workflow automation. One of my key projects involved building an AI-assisted documentation workflow using Cline, MCP servers, scripts, structured prompts, and internal APIs. It automated several repetitive validation and documentation steps, improving developer productivity and consistency. I also modernized a legacy SVN application by migrating it to GitHub and restructuring it as a standardized multi-module Maven project.
->
-> Before Oracle, I spent about four years at Ford working on Ford Pro Intelligence, a connected-vehicle and fleet-management platform. I developed and supported Java and Spring Boot microservices, APIs, and event-driven data pipelines using technologies such as Kafka, Azure Event Hubs, and GCP Pub/Sub to process large volumes of vehicle telemetry data. I led an observability initiative where I implemented end-to-end distributed tracing across our microservices, improving system visibility and significantly reducing the time required to troubleshoot production issues.
->
-> What I enjoy most is owning problems end-to-end, working closely with cross-functional teams, and building reliable, maintainable systems that are easy to support in production."
+ "Hi, I’m Manisha. I’m a backend-focused full-stack software engineer with over seven years of experience building scalable and reliable systems across the healthcare and automotive industries.
+
+My primary expertise is in Java, Spring Boot, REST APIs, microservices, distributed systems, databases, and CI/CD. I also have frontend experience with React, Angular, which helps me collaborate effectively across the full application stack.
+
+Most recently, I'm with Oracle Health where I worked on internal engineering tools, application modernization, and AI-enabled workflow automation. One of my key projects involved building an AI-assisted documentation workflow using Cline, MCP servers, scripts, structured prompts, and internal APIs. It automated several repetitive validation and documentation steps, improving developer productivity and consistency. I also modernized a legacy SVN application by migrating it to GitHub and restructuring it as a standardized multi-module Maven project.
+
+Before Oracle, I spent about four years at Ford working on Ford Pro Intelligence, a connected-vehicle and fleet-management platform. I developed and supported Java and Spring Boot microservices, APIs, and event-driven data pipelines using technologies such as Kafka, Azure Event Hubs, and GCP Pub/Sub to process large volumes of vehicle telemetry data. I led an observability initiative where I implemented end-to-end distributed tracing across our microservices, improving system visibility and significantly reducing the time required to troubleshoot production issues.
+
+What I enjoy most is owning problems end-to-end, working closely with cross-functional teams, and building reliable, maintainable systems that are easy to support in production."
 
 ---
 
@@ -121,39 +121,39 @@ The new rollout-verification step reduced the risk of the two systems becoming o
 **Primary:** AI/automation initiative · Differentiator story
 **Also reuses for:** Improving developer productivity · Owning something novel end-to-end
 
-> **S — Situation**
->
-> At Oracle Health, engineers followed a manual process to package and deliver configurations through an internal README workflow. They had to validate scripts through SSH, review README content, generate evidence files, enter information into the Feature Tracker, and create records across multiple internal systems.
->
-> The process involved a lot of repetitive work and switching between tools, which made it slow and prone to errors.
->
-> **T — Task**
->
-> I took ownership of simplifying this process by building an AI-assisted workflow that could automate the repetitive steps while still keeping validation and human review in place.
->
-> **A — Action**
->
-> I used Cline workflows to define the process step by step, with clear rules and validation checks at each stage.
->
-> I also used existing MCP servers to connect the workflow with our internal APIs and tools. This allowed the workflow to retrieve information, run supported actions, and submit validated data instead of only generating text instructions.
->
-> The workflow handled several steps, including reviewing PR scripts, parsing the README document, converting the required information into structured JSON, calling the Feature Tracker API, running the README scanner, and generating the final evidence files.
->
-> The main challenge was making the AI-generated output consistent and reliable. README content was not always structured in the same way, but the Feature Tracker API expected a specific JSON format. I used clear prompts, examples, and strict formatting rules to guide the output.
->
-> I also added validation before any API call was made, so incomplete or incorrectly formatted information could not be submitted to the internal system. If something was missing or invalid, the workflow stopped and asked the engineer to review it.
->
-> I tested the workflow with different inputs, refined the prompts and validation rules, and documented how engineers could use and troubleshoot it.
->
-> **R — Result**
->
-> The workflow removed much of the manual data entry, command execution, and switching between tools. It made the process faster, more consistent, and easier to track.
->
-> I presented it to the team as a proof of concept for broader AI-assisted engineering automation, and my manager recognized it as aligned with the direction the team wanted to pursue.
->
-> **Reflection**
->
-> The main lesson for me was that AI automation is useful only when it has strong validation and human checkpoints. The goal was not just to automate the process, but to make it reliable and safe when interacting with internal systems.
+**S — Situation**
+
+At Oracle Health, engineers followed a manual process to package and deliver configurations through an internal README workflow. They had to validate scripts through SSH, review README content, generate evidence files, enter information into the Feature Tracker, and create records across multiple internal systems.
+
+The process involved a lot of repetitive work and switching between tools, which made it slow and prone to errors.
+
+**T — Task**
+
+I took ownership of simplifying this process by building an AI-assisted workflow that could automate the repetitive steps while still keeping validation and human review in place.
+
+**A — Action**
+
+I used Cline workflows to define the process step by step, with clear rules and validation checks at each stage.
+
+I also used existing MCP servers to connect the workflow with our internal APIs and tools. This allowed the workflow to retrieve information, run supported actions, and submit validated data instead of only generating text instructions.
+
+The workflow handled several steps, including reviewing PR scripts, parsing the README document, converting the required information into structured JSON, calling the Feature Tracker API, running the README scanner, and generating the final evidence files.
+
+The main challenge was making the AI-generated output consistent and reliable. README content was not always structured in the same way, but the Feature Tracker API expected a specific JSON format. I used clear prompts, examples, and strict formatting rules to guide the output.
+
+I also added validation before any API call was made, so incomplete or incorrectly formatted information could not be submitted to the internal system. If something was missing or invalid, the workflow stopped and asked the engineer to review it.
+
+I tested the workflow with different inputs, refined the prompts and validation rules, and documented how engineers could use and troubleshoot it.
+
+**R — Result**
+
+The workflow removed much of the manual data entry, command execution, and switching between tools. It made the process faster, more consistent, and easier to track.
+
+I presented it to the team as a proof of concept for broader AI-assisted engineering automation, and my manager recognized it as aligned with the direction the team wanted to pursue.
+
+**Reflection**
+
+The main lesson for me was that AI automation is useful only when it has strong validation and human checkpoints. The goal was not just to automate the process, but to make it reliable and safe when interacting with internal systems.
 
 ---
 
